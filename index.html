@@ -11,19 +11,17 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
   <title>Talia</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
-
-  <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
@@ -33,650 +31,590 @@
 <body>
   <div class="hero_area">
     <!-- header section strats -->
-    <div class="hero_bg_box">
-      <img src="images/hero-bg.jpg" alt="">
-    </div>
-
     <header class="header_section">
-      <div class="header_bottom">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container">
-            <a class="navbar-brand" href="index.html">
-              <span>
-                Orgarden
-              </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class=""></span>
-            </button>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Talia
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="about.html"> About Me </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html"> Services </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="gardener.html"> Gardeners </a>
+                  <a class="nav-link" href="watch.html"> Our Watches </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
               </ul>
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
             </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </div>
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class=" slider_section ">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <section class=" slider_section position-relative">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ml-auto">
-                  <div class="detail-box">
-                    <h1>
-                      We Provide Gardening Services
-                      </span>
-                    </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod magna aliqua. Ut enim ad minim veniam
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Contact Us</a>
+            <div class="slider_item-box">
+              <div class="slider_item-container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="slider_img-box">
+                        <div>
+                          <img src="images/watch.png" alt="" class="" />
+                        </div>
+                      </div>
                     </div>
+                    <div class="col-md-7">
+                      <div class="slider_item-detail">
+                        <div>
+                          <h1>
+                            Stylish watches
+                          </h1>
+                          <p>
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l
+                          </p>
+                          <div class="d-flex">
+                            <a href="" class="slider-btn1 mr-3">
+                              Read More
+                            </a>
+                            <a href="" class="slider-btn2">
+                              Contact Us
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ml-auto">
-                  <div class="detail-box">
-                    <h1>
-                      We Provide Gardening Services
-                      </span>
-                    </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod magna aliqua. Ut enim ad minim veniam
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Contact Us</a>
+          <div class="carousel-item">
+            <div class="slider_item-box">
+              <div class="slider_item-container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="slider_img-box">
+                        <div>
+                          <img src="images/watch.png" alt="" class="" />
+                        </div>
+                      </div>
                     </div>
+                    <div class="col-md-7">
+                      <div class="slider_item-detail">
+                        <div>
+                          <h1>
+                            Stylish watches
+                          </h1>
+                          <p>
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l
+                          </p>
+                          <div class="d-flex">
+                            <a href="" class="slider-btn1 mr-3">
+                              Read More
+                            </a>
+                            <a href="" class="slider-btn2">
+                              Contact Us
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-7 col-lg-6 ml-auto">
-                  <div class="detail-box">
-                    <h1>
-                      We Provide Gardening Services
-                      </span>
-                    </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod magna aliqua. Ut enim ad minim veniam
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Contact Us</a>
+          <div class="carousel-item">
+            <div class="slider_item-box">
+              <div class="slider_item-container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="slider_img-box">
+                        <div>
+                          <img src="images/watch.png" alt="" class="" />
+                        </div>
+                      </div>
                     </div>
+                    <div class="col-md-7">
+                      <div class="slider_item-detail">
+                        <div>
+                          <h1 class="">
+                            Stylish watches
+                          </h1>
+                          <p>
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l
+                          </p>
+                          <div class="d-flex">
+                            <a href="" class="slider-btn1 mr-3">
+                              Read More
+                            </a>
+                            <a href="" class="slider-btn2">
+                              Contact Us
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="container idicator_container">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
+        <div class="custom_carousel-control">
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </section>
     <!-- end slider section -->
   </div>
+  <div class="bg">
 
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container">
-      <div class="">
-        <div class="heading_container heading_center">
-          <h2>
-            Who Are We?
-          </h2>
-        </div>
-        <div class="img-box col-md-7 px-0 mx-auto">
-          <img src="images/about-img.jpg" alt="" />
-        </div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, quo ab ipsum neque sint delectus recusandae veniam eius mollitia fuga eveniet voluptates ex nostrum! Explicabo maiores aliquam accusamus dolorem obcaecati.
-          Velit, exercitationem at. Sit aperiam magni nostrum esse ipsam nemo amet ab. Sint quidem modi aliquam aspernatur iusto vitae alias. Fuga commodi assumenda labore nemo quis nam beatae deserunt error.
-          Pariatur ratione molestiae, quam delectus sed at nam debitis vel veritatis necessitatibus sint impedit.
-        </p>
-        <div class="btn-box">
-          <a href="">
-            Read More
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
-
-  <!-- service section -->
-
-  <section class="service_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Our services
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s1.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Garden Care
-              </h6>
-              <p>
-                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
+    <!-- about section -->
+    <section class="about_section layout_padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 offset-md-2">
+            <div class="about_detail-box">
+              <h3 class="custom_heading ">
+                About our watch
+              </h3>
+              <p class="">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of
+                letters, as opposed to using 'Content here, content here', making it
               </p>
-              <a href="">
-                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              <div>
+                <a href="">
+                  Read More
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s2.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Planting
-              </h6>
-              <p>
-                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
-              </p>
-              <a href="">
-                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s3.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Lawn Care
-              </h6>
-              <p>
-                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
-              </p>
-              <a href="">
-                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s4.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Rubbish Removal
-              </h6>
-              <p>
-                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
-              </p>
-              <a href="">
-                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s5.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Lawn Moving
-              </h6>
-              <p>
-                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
-              </p>
-              <a href="">
-                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s6.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Watering Garder
-              </h6>
-              <p>
-                Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
-              </p>
-              <a href="">
-                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+          <div class="col-md-4">
+            <div class="about_img-box">
+              <img src="images/about.png" alt="">
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- end service section -->
 
-  <!-- team section -->
+    <!-- end about section -->
 
-  <section class="team_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Our Gardeners
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris
-          iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.
+    <!-- brand section -->
+
+    <section class="brand_section layout_padding2">
+      <div class="container">
+        <div class="brand_heading">
+          <h3 class="custom_heading">
+            Our watch brands
+          </h3>
+          <p class="font-weight-bold">
+            It is a long established fact that a reader will be distracted by the readable content of a page
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid brand_item-container">
+        <div class="brand_item-box">
+          <div class="brand_img-box  item-1">
+            <a href="">
+              View More
+            </a>
+          </div>
+          <div class="brand_detail-box">
+            <h5>
+              $<span> 40 </span>
+            </h5>
+            <h6 class="">
+              best watch
+            </h6>
+          </div>
+        </div>
+        <div class="brand_item-box">
+          <div class="brand_img-box  item-2">
+            <a href="">
+              View More
+            </a>
+          </div>
+          <div class="brand_detail-box">
+            <h5>
+              $<span> 50 </span>
+            </h5>
+            <h6 class="">
+              best watch
+            </h6>
+          </div>
+        </div>
+        <div class="brand_item-box">
+          <div class="brand_img-box  item-3">
+            <a href="">
+              View More
+            </a>
+          </div>
+          <div class="brand_detail-box">
+            <h5>
+              $<span> 60 </span>
+            </h5>
+            <h6 class="">
+              best watch
+            </h6>
+          </div>
+        </div>
+        <div class="brand_item-box">
+          <div class="brand_img-box  item-4">
+            <a href="">
+              View More
+            </a>
+          </div>
+          <div class="brand_detail-box">
+            <h5>
+              $<span> 70 </span>
+            </h5>
+            <h6 class="">
+              best watch
+            </h6>
+          </div>
+        </div>
+        <div class="brand_item-box">
+          <div class="brand_img-box  item-5">
+            <a href="">
+              View More
+            </a>
+          </div>
+          <div class="brand_detail-box">
+            <h5>
+              $<span> 80 </span>
+            </h5>
+            <h6 class="">
+              best watch
+            </h6>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- end brand section -->
+
+    <!-- why section -->
+    <section class="why_section layout_padding">
+      <div class="container">
+        <h3 class="custom_heading">
+          Why choose Us
+        </h3>
+        <p class="font-weight-bold">
+          It is a long established fact that a reader will be distracted by the readable content of a page
         </p>
       </div>
-      <div class="row">
-        <div class="col-xl-3 col-sm-6 ">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/t1.jpg" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img_box">
+              <img src="images/feature-1.png" alt="">
             </div>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
-            </div>
-            <div class="detail-box">
+            <div class="detail_box">
               <h5>
-                Martin Anderson
+                Fast Delivery
               </h5>
-              <h6 class="">
-                Gardener
-              </h6>
+              <p>
+                variations of passages of Lorem Ipsum available, but the majority have suffered
+              </p>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3 col-sm-6 ">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/t2.jpg" alt="">
+          <div class="col-md-6">
+            <div class="img_box">
+              <img src="images/feature-2.png" alt="">
             </div>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
-            </div>
-            <div class="detail-box">
+            <div class="detail_box">
               <h5>
-                Daisy Butler
+                Free Shiping
               </h5>
-              <h6 class="">
-                Gardener
-              </h6>
+              <p>
+                variations of passages of Lorem Ipsum available, but the majority have suffered
+              </p>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3 col-sm-6 ">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/t3.jpg" alt="">
+          <div class="col-md-6">
+            <div class="img_box">
+              <img src="images/feature-3.png" alt="">
             </div>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
-            </div>
-            <div class="detail-box">
+            <div class="detail_box">
               <h5>
-                Nathan Mcpherson
+                Best Quality
               </h5>
-              <h6 class="">
-                Gardener
-              </h6>
+              <p>
+                variations of passages of Lorem Ipsum available, but the majority have suffered
+              </p>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3 col-sm-6 ">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/t4.jpg" alt="">
+          <div class="col-md-6">
+            <div class="img_box">
+              <img src="images/feature-4.png" alt="">
             </div>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
-            </div>
-            <div class="detail-box">
+            <div class="detail_box">
               <h5>
-                Emily Black
+                24x7 Customer support
               </h5>
-              <h6 class="">
-                Gardener
-              </h6>
+              <p>
+                variations of passages of Lorem Ipsum available, but the majority have suffered
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="btn-box">
-        <a href="">
-          View All
-        </a>
+    </section>
+
+
+    <!-- end why section -->
+  </div>
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding-bottom">
+    <div class="container">
+      <h3 class="custom_heading">
+        Testimonial
+      </h3>
+      <p class="font-weight-bold">
+        It is a long established fact that a reader will be distracted by the readable content of a page
+      </p>
+    </div>
+    <div class="container"></div>
+    <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="detail_box">
+                  <div class="img_box">
+                    <img src="images/client.jpg" alt="">
+                  </div>
+                  <div class="name_box">
+                    <h5>
+                      Sandy Den
+                    </h5>
+                    <h6>
+                      Many Variations
+                    </h6>
+                  </div>
+                </div>
+                <div class="detail_text">
+                  <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly believable. If
+                    you
+                    are going to use a passage of Lorem Ipsum, you need to beThere are many variations of passages
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="detail_box">
+                  <div class="img_box">
+                    <img src="images/client.jpg" alt="">
+                  </div>
+                  <div class="name_box">
+                    <h5>
+                      Sandy Den
+                    </h5>
+                    <h6>
+                      Many Variations
+                    </h6>
+                  </div>
+                </div>
+                <div class="detail_text">
+                  <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly believable. If
+                    you
+                    are going to use a passage of Lorem Ipsum, you need to beThere are many variations of passages
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="detail_box">
+                  <div class="img_box">
+                    <img src="images/client.jpg" alt="">
+                  </div>
+                  <div class="name_box">
+                    <h5>
+                      Sandy Den
+                    </h5>
+                    <h6>
+                      Many Variations
+                    </h6>
+                  </div>
+                </div>
+                <div class="detail_text">
+                  <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly believable. If
+                    you
+                    are going to use a passage of Lorem Ipsum, you need to beThere are many variations of passages
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
     </div>
   </section>
 
-  <!-- end team section -->
+
+  <!-- end client section -->
 
   <!-- contact section -->
 
   <section class="contact_section layout_padding">
-    <div class="contact_bg_box">
-      <div class="img-box">
-        <img src="images/contact-bg.jpg" alt="">
-      </div>
-    </div>
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Get In touch
-        </h2>
-      </div>
-      <div class="">
-        <div class="row">
-          <div class="col-md-7 mx-auto">
-            <form action="#">
-              <div class="contact_form-container">
-                <div>
-                  <div>
-                    <input type="text" placeholder="Full Name" />
-                  </div>
-                  <div>
-                    <input type="email" placeholder="Email " />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="Phone Number" />
-                  </div>
-                  <div class="">
-                    <input type="text" placeholder="Message" class="message_input" />
-                  </div>
-                  <div class="btn-box ">
-                    <button type="submit">
-                      Send
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
+    <h2 class="custom_heading text-center">
+      NOW CONTACT US
+    </h2>
+    <div class="container mt-5 pt-5">
+      <form action="">
+        <div>
+          <input type="text" placeholder="NAME">
         </div>
-      </div>
+        <div>
+          <input type="email" placeholder="EMAIL">
+        </div>
+        <div>
+          <input type="text" placeholder="PHONE NUMBER">
+        </div>
+        <div>
+          <input type="text" class="message-box" placeholder="MESSAGE">
+        </div>
+        <div class="d-flex justify-content-center mt-5 pt-5">
+          <button>
+            SEND
+          </button>
+        </div>
+      </form>
     </div>
   </section>
 
   <!-- end contact section -->
 
-
-  <!-- client section -->
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center psudo_white_primary mb_45">
-        <h2>
-          Testimonial
-        </h2>
-      </div>
-      <div class="carousel-wrap row ">
-        <div class="owl-carousel client_owl-carousel">
-          <div class="item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/c1.jpg" alt="" class="box-img">
-              </div>
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Klara Smith
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="img-box">
-                <img src="images/c2.jpg" alt="" class="box-img">
-              </div>
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Henry Buffet
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end client section -->
-
   <!-- info section -->
-  <section class="info_section ">
+  <section class="info_section layout_padding">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="info_logo">
-            <a class="navbar-brand" href="index.html">
-              <span>
-                Orgarden
-              </span>
-            </a>
-            <p>
-              Laboriosam reprehenderit velit est voluptatibus odit corrupti alias ad reiciendis iusto quam nam commodi.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_links">
-            <h5>
-              Useful Link
-            </h5>
-            <ul>
-              <li>
-                <a href="">
-                  Laboriosam reprehenderit velit
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  est voluptatibus odit corrupti
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  alias ad reiciendis iusto quam
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  nam commodi
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_info">
-            <h5>
-              Contact Us
-            </h5>
-          </div>
-          <div class="info_contact">
-            <a href="" class="">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Lorem ipsum dolor sit amet,
-              </span>
-            </a>
-            <a href="" class="">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Call : +01 1234567890
-              </span>
-            </a>
-            <a href="" class="">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>
-                demo@gmail.com
-              </span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_form ">
-            <h5>
-              Newsletter
-            </h5>
-            <form action="#">
-              <input type="email" placeholder="Enter your email">
-              <button>
-                Subscribe
-              </button>
-            </form>
-            <div class="social_box">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
+      <div class="info_items">
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-1">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                Lorem Ipsum is simply dummy text
+              </p>
             </div>
           </div>
-        </div>
+        </a>
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-2">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                +02 1234567890
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-3">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                demo@gmail.com
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </section>
+
+
 
   <!-- end info_section -->
 
-
-
-
   <!-- footer section -->
-  <footer class="container-fluid footer_section">
+  <section class="container-fluid footer_section">
     <p>
-      &copy; <span id="currentYear"></span> All Rights Reserved. Design by
+      © 2020 All Rights Reserved By
       <a href="https://html.design/">Free Html Templates</a>
     </p>
-  </footer>
+  </section>
   <!-- footer section -->
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <!-- owl slider -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <script src="js/custom.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 
 </html>
