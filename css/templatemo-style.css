@@ -46,7 +46,7 @@ a:focus {
 }
 
 .tm-font-big {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .tm-btn-primary {
@@ -79,7 +79,7 @@ a:focus {
 
 .navbar-brand {
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -220,7 +220,7 @@ a:focus {
 /* Introduction */
 
 .tm-section-title {
-  font-size: 5.6rem;
+  font-size: 2.6rem;
   font-weight: normal;
 }
 
@@ -240,7 +240,7 @@ a:focus {
 .tm-work-description {
   max-width: 650px;
   width: 100%;
-  font-size: 2rem;
+  font-size: 0.9rem;
 }
 
 .tm-gallery-container {
@@ -299,7 +299,7 @@ a:focus {
   padding: 2em;
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: 1.25em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -408,7 +408,7 @@ figure.effect-honey:hover figcaption::before,
 figure.effect-honey:hover h2,
 figure.effect-honey:hover h2 i {
   opacity: 1;
-  -webkit-transform: translate3xd(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
