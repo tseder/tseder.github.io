@@ -264,7 +264,7 @@ a:focus {
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #3ba0dd;
+  color: #3b3c5a;
 }
 
 .slick-dots li button:before {
